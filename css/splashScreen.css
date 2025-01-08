@@ -1,0 +1,40 @@
+/* splashScreen.css */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
