@@ -1,0 +1,23 @@
+main {
+    width: 100%;
+    max-width: 375px;
+    /* Bootstrap's mobile view max-width */
+    margin: 0 auto;
+    min-height: 667px;
+    max-height: 667px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+main::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+* {
+    border: 1px solid #f0f0f0;
+}
